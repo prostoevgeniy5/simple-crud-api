@@ -13,7 +13,7 @@ function updatePersonForList(request, body) {
     let newPersons;
     let personId = getPersonId(request.url);
     let definPerson = persons.find((el, ind) => {
-            return el["id"] === personId;
+            return el["id"] == personId;
         })        
     let newObj = JSON.parse(bodyData);
     let resultObj = Object.assign(definPerson, newObj);
