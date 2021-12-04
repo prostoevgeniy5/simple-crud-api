@@ -28,3 +28,4 @@
 6. Value of port on which application is running should be stored in `.env` file.
 7. There should be 2 modes of running application: **development** and **production**
 8. There could be some tests for API.
+
